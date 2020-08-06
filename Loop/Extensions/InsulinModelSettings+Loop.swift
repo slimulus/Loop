@@ -25,9 +25,9 @@ extension ExponentialInsulinModelPreset {
     var title: String {
         switch self {
         case .humalogNovologAdult:
-            return NSLocalizedString("Novolog (6 hr.)", comment: "Title of insulin model preset")
+            return NSLocalizedString("Novolog (6 hr)", comment: "Title of insulin model preset")
         case .humalogNovologChild:
-            return NSLocalizedString("Novolog (5 hr.)", comment: "Title of insulin model preset")
+            return NSLocalizedString("Novolog (5 hr)", comment: "Title of insulin model preset")
         case .fiasp:
             return NSLocalizedString("Fiasp", comment: "Title of insulin model preset")
         }
